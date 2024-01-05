@@ -1,0 +1,81 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#demo .box {
+  position: relative;
+}
+#demo .box .minibox {
+  border: 1px solid #4887d9;
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #4887d9;
+  padding: 10px;
+  margin: 10px 0;
+}
+#demo .box .flying {
+  position: absolute;
+  left: 200px;
+}
+
+#greenbox .box {
+  position: relative;
+}
+#greenbox .box .minibox {
+  border: 1px solid #51927e;
+  width: 150px;
+  height: 150px;
+  background-color: #51927e;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+#greenbox .box .flying {
+  position: absolute;
+  left: 200px;
+}
+
+#violetbox .box {
+  position: relative;
+}
+#violetbox .box .minibox {
+  border: 1px solid #de9cda;
+  width: 150px;
+  height: 150px;
+  background-color: #de9cda;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+#violetbox .box .flying {
+  position: absolute;
+  top: 460px;
+  left: 350px;
+}
+
+#lorembox .box {
+  position: relative;
+}
+#lorembox .box .minibox {
+  border: 1px solid #de9cda;
+  width: 150px;
+  height: 150px;
+  background-color: #de9cda;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+#lorembox .box p {
+  margin-right: 670px;
+  margin-left: -10px;
+}
+#lorembox .box .flying {
+  position: absolute;
+  left: 1250px;
+}/*# sourceMappingURL=style.css.map */
